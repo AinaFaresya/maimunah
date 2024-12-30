@@ -25,7 +25,7 @@ body {
 }
 
 .logo img {
-    width: 80px;
+    width: 90;
     margin-bottom: 10px;
 }
 
@@ -52,19 +52,34 @@ h2 {
     text-align: left;
 }
 
-.input-group label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 100%;
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #f7b529; /* Warna jingga */
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+.input-container i {
+    color: white; /* Warna ikon */
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+.input-container input::placeholder {
+    color: white;
+}
+
+/* Opsyen */
 .options {
     display: flex;
     justify-content: space-between;
@@ -81,6 +96,7 @@ h2 {
     text-decoration: underline;
 }
 
+/* Butang Log Masuk */
 .btn {
     background: #f7b529;
     border: none;
