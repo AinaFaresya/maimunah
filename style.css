@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", serif;
     background-color: #e3eff5;
     margin: 0;
     padding: 0;
@@ -7,6 +7,12 @@ body {
     justify-content: center; /* Center mendatar */
     align-items: center; /* Center menegak */
     height: 100vh; /* Tinggi penuh skrin */
+}
+
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .container {
