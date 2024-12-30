@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3eff5;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mengaktifkan flexbox */
+    justify-content: center; /* Center mendatar */
+    align-items: center; /* Center menegak */
+    height: 100vh; /* Tinggi penuh skrin */
+}
+
+
+.container {
+    background: #f9f9f9;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 20px;
+    color: #3ba9d6;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.user-type label {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.options a {
+    color: #3ba9d6;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background: #f7b529;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #e0a021;
+}
